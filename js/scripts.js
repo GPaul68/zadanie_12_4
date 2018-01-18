@@ -17,6 +17,6 @@ function getJoke() {
     xhr.send();
 }
 
-window.onload = function() {
+$(window).on('load', function() {
     getJoke();
-};
+});
